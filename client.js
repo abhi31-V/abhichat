@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000');
+const socket=io('http://localhost:8000',{transports: ['websocket']});
 const form=document.getElementById('sc')
 const mi=document.getElementById('messageInp')
 const mc=document.querySelector(".con")
