@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+  </head>
+<script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="client.js"></script>
+  <header><img src="abhi.jpg"></img><h1>Vashishth Messenger</h1>
+  </header><body>
+  <div class="con">
+    <!-- <div class="m mi"></div>
+
+ <div class="m l"></div>
+ <div class="m r"></div> -->
+
+  </div>
+  <div class="send">
+    <form action="#" id="sc">
+      <input type="text" name="messageInp" id="messageInp"> <button class="btn" type="submit">send</button>
+    </form>
+  </div>
+  <style>
+    body
+    {
+      background-color:rgb(41, 35, 35);
+    }
+    *
+    {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+     
+    }
+   
+    .con
+    {
+      padding: 10px;
+      margin: 10px;
+     max-width: 955px;
+     background-color: aqua;
+     margin: auto;
+     height: 60vh;
+     padding: 22px;
+     overflow-y: scroll;
+     margin-bottom: 12px;
+     border-radius: 8px;
+    }
+    .m
+    {
+      background-color: aquamarine;
+      width: 24%;
+      padding: 10px;
+      margin: 17px 12px;
+      border: 2px solid black;
+      border-radius: 10px;
+      color:rgb(2, 2, 27);
+
+    }
+    .r
+    {
+      float: right;
+      clear: both;
+    }
+    .l
+    {
+      float: left;
+      clear: both;
+    }
+    .mi
+    {
+      display: block;
+margin: auto;
+      text-align: center;
+      clear: both;
+    }
+    header{
+      background-color: rgb(41, 35, 35);
+    }
+    header>h1{
+      padding:10px ;
+      font-size: xx-large;
+      background-color: rgb(247, 230, 230);
+      margin-left: auto;
+    margin-right: auto;
+      text-align: center;
+      padding: 2px;
+    }
+    #messageInp
+    {
+      width: 86%;
+      border: 2px solid black;
+      border-radius: 6px;
+      height: 34px;
+    }
+    #sc{
+
+display: block;
+margin: auto;
+text-align: center;
+max-width: 985px;
+width: 100%;
+    }
+    .btn
+    {
+      cursor: pointer;
+      border:2px solid black;
+      border-radius: 6px;
+      height: 34px;
+      background-color: rgb(214, 211, 206);
+      
+    }
+    h2{
+      text-align: center;
+color: rgb(214, 211, 206);
+    }
+    img{
+      width: 100px;
+      height: 100px;
+      display: block;
+margin: auto;
+border-radius: 50%;
+padding: 10px
+    }
+    </style>
+  </form>
+  <br>
+  <h2>Develop By Abhishek </h2>
+</body>
+
+</html>
